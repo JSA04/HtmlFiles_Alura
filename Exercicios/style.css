@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin: 0mm;
+}
+
+body{
+    background-color: #CCCCCC;
+}
+
+img{
+    width: 100%;
+}
+
+h1, p{
+    text-align: center;
+}
+
+em strong{
+    color: red;
+}
