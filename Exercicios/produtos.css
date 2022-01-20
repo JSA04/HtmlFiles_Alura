@@ -4,7 +4,36 @@ body{
     margin: 0mm;
 }
 
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0px auto;
+}
+
 header{
-    background: gray;
-    height: 50vh;
+    background: #BBBBBB;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin:0px 0px 0px 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
