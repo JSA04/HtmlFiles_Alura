@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    margin: 0mm;
+}
+
+header{
+    background: gray;
+    height: 50vh;
+}
