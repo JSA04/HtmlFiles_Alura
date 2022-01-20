@@ -1,21 +1,48 @@
 @charset "UTF-8";
 
-*{
-    margin: 0mm;
-}
-
 body{
-    background-color: #CCCCCC;
+    margin:0mm;
+}
+.principal{
+    background: #CCCCCC;
+    padding: 25px;
 }
 
 img{
     width: 100%;
 }
 
-h1, p{
+h1{
+    margin-left: 25px;
+}
+h2, h3, p{
     text-align: center;
 }
 
 em strong{
     color: red;
+}
+
+.items{
+    font-style: italic;
+}
+
+.beneficios{
+    background: white;
+    padding: 25px;
+}
+
+h2{
+    text-align: center;
+
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15vw;
+}
+
+#imgben{
+    display: inline-block;
+    width: 50vw;
 }
