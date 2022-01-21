@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-body{
+*{
     margin: 0mm;
+    padding: 0px;
 }
 
 .caixa{
-    min-width: 340px;
     max-width: 940px;
     position: relative;
     margin: 0px auto;
@@ -37,4 +37,56 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
+}
+
+main ul{
+    width: 940px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+main li{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 0px 1.5%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 60vh;
+}
+
+main li:hover{
+    border-color: #C78C19;
+}
+
+main li:active{
+    border-color: lightslategray;
+}
+
+main h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main p{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main li:hover h2{
+    font-size: 35px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    background-image: url("../Materiais/Produtos/bg.jpg");
+    text-align: center;
 }
