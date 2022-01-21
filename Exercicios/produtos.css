@@ -5,7 +5,8 @@ body{
 }
 
 .caixa{
-    width: 940px;
+    min-width: 340px;
+    max-width: 940px;
     position: relative;
     margin: 0px auto;
 }
@@ -18,7 +19,7 @@ header{
 nav {
     position: absolute;
     top: 110px;
-    right: 0;
+    right: 10px;
 }
 
 nav li {
