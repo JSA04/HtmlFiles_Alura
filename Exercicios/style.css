@@ -24,7 +24,7 @@ nav {
 
 nav li {
     display: inline;
-    margin:0px 0px 0px 15px;
+    margin:0px 0px 0px 1vw;
 }
 
 nav a{
@@ -95,6 +95,7 @@ footer{
 main {
     max-width: 940px;
     margin: auto;
+    padding-left: 15px;
 }
 
 form {
