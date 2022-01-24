@@ -10,5 +10,6 @@
  <body>
     <a href="https://jsa04.github.io/HtmlFiles/Exercicios/barbearia-alura.html">Barbearia Alura</a><br>
     <a href="https://jsa04.github.io/HtmlFiles/Exercicios/produtos.html">Produtos</a>
+    <a href="https://jsa04.github.io/HtmlFiles/Exercicios/contato.html">Contato</a>
  </body>
  </html>
