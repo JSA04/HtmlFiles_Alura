@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Barbearia Alura</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="../Materiais/Produtos/logo.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="https://jsa04.github.io/HtmlFiles/Exercicios/barbearia-alura.html">Home</a></li>
+                    <li><a href="https://jsa04.github.io/HtmlFiles/Exercicios/produtos.html">Produtos</a></li>
+                    <li><a href="https://jsa04.github.io/HtmlFiles/Exercicios/contato.html">Contato</a></li>
+                </ul>
+            </nav>    
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nes">Nome e Sobrenome</label>
+            <input type="text" id="nes">
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel">
+
+            <label for="msg">Mensagem</label>
+            <textarea id="msg" cols="60" rows="10"></textarea>
+
+            <div>
+                <p>Como prefere nosso contato:</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+            </div>
+
+
+            <label><input type="checkbox">Gostaria de receber as nossas novidades por e-mail?</label>
+
+            <input type="submit" value="Enviar formulário">
+        </form>
+    </main>
+    <footer>
+        <img src="../Materiais/Produtos/logo-branco.png" alt="">
+        <p>&copy; Copyright Barbearia Alura</p>
+    </footer>
+</html>
