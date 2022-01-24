@@ -14,13 +14,12 @@ header{
     text-transform: uppercase;
     color:black;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 
 #hd{
     position: relative;
     max-width: 940px;
-    min-width: 550px;
     margin: auto;
     font-size: 22px;
 }
