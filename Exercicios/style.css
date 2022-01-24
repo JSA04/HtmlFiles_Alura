@@ -101,19 +101,19 @@ form {
     margin: 40px 0px;
 }
 
-form input {
+.input-mod {
     display: block;
     padding: 10px 25px;
     width: 50%;
     margin-bottom: 15px;
 }
 
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
 }
 
-textarea {
-    width: 50%;
+div input, #esp{
+    margin:10px;
 }
