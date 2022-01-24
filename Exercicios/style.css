@@ -95,7 +95,7 @@ footer{
 main {
     max-width: 940px;
     margin: auto;
-    padding-left: 15px;
+    margin: 0 10vw;
 }
 
 form {
