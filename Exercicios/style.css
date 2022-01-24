@@ -1,76 +1,119 @@
 @charset "UTF-8";
 
-body{
-    margin:0mm;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caixa{
+    max-width: 940px;
+    position: relative;
+    margin: 0px auto;
 }
 
 header{
-    background-color: #CCCCCC;
+    background: #BBBBBB;
+
 }
 
-#listprinc li, a{
-    display: inline;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color:black;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-#hd{
-    position: relative;
-    max-width: 940px;
-    min-width: 550px;
-    margin: auto;
-    font-size: 22px;
-}
-
-#listprinc{
+nav {
     position: absolute;
     top: 110px;
-    right: 0;
+    right: 10px;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 25px;
+nav li {
+    display: inline;
+    margin:0px 0px 0px 15px;
 }
 
-img#princ{
-    width: 100%;
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-h1{
-    margin-left: 25px;
-}
-h2, h3, p{
-    text-align: center;
+nav a:hover{
+    text-decoration: underline;
+    color: #C78C19;
 }
 
-em strong{
-    color: red;
+main ul{
+    width: 940px;
+    margin: auto;
+    padding: 50px 0px;
 }
 
-.items{
-    font-style: italic;
-}
-
-.beneficios{
-    background: white;
-    padding: 25px;
-}
-
-h2{
-    text-align: center;
-
-}
-#listben{
+main li{
     display: inline-block;
+    width: 30%;
     vertical-align: top;
-    margin-right: 15vw;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 0px 1.5%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 60vh;
 }
 
-#imgben{
-    display: inline-block;
-    width: 50vw;
+main li:hover{
+    border-color: #C78C19;
+}
+
+main li:active{
+    border-color: lightslategray;
+}
+
+main h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main p{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main li:hover h2{
+    font-size: 35px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    background-image: url("../Materiais/Produtos/bg.jpg");
+    text-align: center;
+}
+
+main {
+    max-width: 940px;
+    margin: auto;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+form input {
+    display: block;
+    padding: 10px 25px;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+textarea {
+    width: 50%;
 }
