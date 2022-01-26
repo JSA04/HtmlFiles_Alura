@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+#maincont{
+    margin: 0 10vw;
+}
+
 .caixa{
     max-width: 940px;
     position: relative;
@@ -40,13 +44,13 @@ nav a:hover{
     color: #C78C19;
 }
 
-main ul{
+#listprod{
     width: 940px;
     margin: auto;
     padding: 50px 0px;
 }
 
-main li{
+#listprod li{
     display: inline-block;
     width: 30%;
     vertical-align: top;
@@ -59,11 +63,11 @@ main li{
     height: 60vh;
 }
 
-main li:hover{
+#listprod li:hover{
     border-color: #C78C19;
 }
 
-main li:active{
+#listprod li:active{
     border-color: lightslategray;
 }
 
@@ -92,12 +96,6 @@ footer{
     text-align: center;
 }
 
-main {
-    max-width: 940px;
-    margin: auto;
-    margin: 0 10vw;
-}
-
 form {
     margin: 40px 0px;
 }
@@ -118,3 +116,78 @@ form label, form p {
 div input, #esp{
     margin:10px;
 }
+
+legend{
+    font-size:  20px;
+}
+
+fieldset{
+    padding: 15px;
+}
+
+fieldset select{
+    width: 20%;
+    font-size: 16px;
+}
+
+#enviar{
+    padding: 20px 0;
+    width: 50%;
+    font-size:16px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s;
+}
+
+#enviar:hover{
+    background-color: rgb(255, 123, 0);
+}
+
+#enviar:active{
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+    transform: translate(2px, 2px);
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+table{
+    text-align: center;
+    margin: 20px 0;
+    width: 50%;
+    height: 200px;
+}
+
+th{
+    background-color: lightgray;
+}
+
+section {
+    max-width: 940px;
+    margin:auto;
+}
+
+section ul {
+    display: inline-block;
+}
+
+.banner{
+    width: 100%;
+}
+
+p{
+    padding: 0 0 1em;
+}
+
+#imgben{
+    width: 80%;
+}
+
