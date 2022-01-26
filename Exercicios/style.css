@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sriracha&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -173,6 +175,7 @@ th{
 section {
     max-width: 940px;
     margin:auto;
+    clear: left;
 }
 
 section ul {
@@ -183,11 +186,19 @@ section ul {
     width: 100%;
 }
 
-p{
+section p{
     padding: 0 0 1em;
 }
 
-#imgben{
-    width: 80%;
+.titulo-principal{
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+
+.Utensilios{
+    width: 125px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
