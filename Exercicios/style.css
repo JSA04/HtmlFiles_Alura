@@ -58,6 +58,7 @@ nav a:hover{
 }
 
 #listprod li{
+    background-color: white;
     display: inline-block;
     width: 30%;
     vertical-align: top;
@@ -67,7 +68,11 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
-    height: 60vh
+    height: 400px
+}
+
+#listprod img{
+    width: 100%;
 }
 
 #listprod li:hover{
@@ -253,19 +258,33 @@ main{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width:820px) {
+    #listprod li{
+        display: block;
+        width: 97%;
+    }
+    #listprod img{
+        width: 220px;
+    }
+}
+
 @media screen and (max-width:550px){
     h1, nav{
-    text-align: center; 
-    position: static;
+        text-align: center; 
+        position: static;
    }
+
     .lista-beneficios{
         display: block;
         width: 100%;
     }
+
     .imagem-beneficios{
         width: 100%;
     }
+
     nav > ul > li{
         margin: 5px 5px;
     }
+
 }
