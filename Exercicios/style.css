@@ -253,16 +253,19 @@ main{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width:500px){
-    header nav{
-        width: 0;
-        left: 50vw;
-    }
+@media screen and (max-width:550px){
+    h1, nav{
+    text-align: center; 
+    position: static;
+   }
     .lista-beneficios{
         display: block;
         width: 100%;
     }
     .imagem-beneficios{
         width: 100%;
+    }
+    nav > ul > li{
+        margin: 5px 5px;
     }
 }
